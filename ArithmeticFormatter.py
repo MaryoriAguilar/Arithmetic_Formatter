@@ -1,4 +1,3 @@
-
 def arithmetic_arranger(problems, solve = False):
  
  num1 = ""
@@ -11,8 +10,6 @@ def arithmetic_arranger(problems, solve = False):
  lines = ""
  result_justified = ""
  arranged_problems = ""
- 
- 
 
  if (len(problems) >= 5):
   return "Error: Too many problems"
@@ -50,6 +47,4 @@ def arithmetic_arranger(problems, solve = False):
   arranged_problems += "\n" + result_justified
  return arranged_problems
  
-print(arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True))
-
-                           
+print(arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True))                      
